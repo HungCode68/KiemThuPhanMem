@@ -1,2 +1,3 @@
-echo "### Kết quả thực hành tuần 1" >> README.md
-echo "![Kết quả Can't Unsee](KiemThuPhanMem/Resource/images/ketqua_cantunsee_1.png)" >> README.md
+### Kết quả thực hành tuần 1
+
+![Kết quả Can't Unsee](Resource/images/ketqua_cantunsee_1.png)
