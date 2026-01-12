@@ -24,7 +24,6 @@ public class StudentAnalyzerTest {
         // 5. Trường hợp ngoại lệ (Có điểm < 0 hoặc > 10)
         assertEquals(0, analyzer.countExcellentStudents(Arrays.asList(-5.0, 15.0, 7.0)));
     }
-
     @Test
     public void testCalculateValidAverage() {
         // 1. Trường hợp bình thường (Nhiều điểm hợp lệ & không hợp lệ)
