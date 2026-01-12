@@ -31,7 +31,15 @@ Dự án được tổ chức theo cấu trúc chuẩn:
     * Kết quả sẽ hiển thị ở cửa sổ **Run** bên dưới. Nếu hiện thanh màu xanh lá cây (Passed), nghĩa là tất cả các ca kiểm thử đều thành công.
 
 ## 4. Các trường hợp kiểm thử (Test Cases)
-Chương trình đã vượt qua 8 ca kiểm thử bao gồm:
-* **Trường hợp bình thường:** Danh sách có cả điểm hợp lệ và không hợp lệ.
-* **Trường hợp biên:** Điểm chính xác 0.0, 8.0 và 10.0.
-* **Trường hợp ngoại lệ:** Danh sách rỗng (`emptyList`), danh sách chứa `null` hoặc toàn bộ điểm không hợp lệ (điểm âm, điểm > 10).
+Theo yêu cầu, chương trình thực hiện kiểm thử đầy đủ các nhóm sau:
+
+### 4.1. Trường hợp bình thường
+* **Danh sách hỗn hợp:** Chứa nhiều điểm hợp lệ và không hợp lệ (Ví dụ: 9.0, 8.5, 7.0, 11.0, -1.0).
+* **Danh sách toàn bộ hợp lệ:** Tất cả các điểm đều nằm trong khoảng 0 - 10.
+
+### 4.2. Trường hợp biên
+* **Danh sách trống:** Kiểm tra xử lý khi không có dữ liệu đầu vào.
+* **Giá trị biên tối thiểu/tối đa:** Danh sách chỉ chứa các điểm 0.0 hoặc 10.0.
+
+### 4.3. Trường hợp ngoại lệ
+* **Dữ liệu ngoài phạm vi:** Danh sách có điểm số < 0 hoặc > 10 để kiểm tra tính năng lọc điểm hợp lệ.
