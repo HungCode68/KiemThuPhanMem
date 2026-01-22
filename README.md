@@ -43,3 +43,6 @@ Theo yêu cầu, chương trình thực hiện kiểm thử đầy đủ các nh
 
 ### 4.3. Trường hợp ngoại lệ
 * **Dữ liệu ngoài phạm vi:** Danh sách có điểm số < 0 hoặc > 10 để kiểm tra tính năng lọc điểm hợp lệ.
+
+### Kết quả thực hành kiểm thử tự động End-to-End với Cypress tuần 3
+<video src="Resource/video/cypress-exercise.mp4" controls width="100%"></video>
