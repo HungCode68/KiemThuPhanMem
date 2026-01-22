@@ -1,9 +1,9 @@
-### Kết quả thực hành trải nghiệm chất lượng giao diện phần mềm với https://cantunsee.space/ tuần 1
+# Tuần 1: kết quả thực hành trải nghiệm chất lượng giao diện phần mềm với https://cantunsee.space/
 
 ![Kết quả Can't Unsee](Resource/images/ketqua_cantunsee_1.png)
 
 
-# Bài tập: Phân tích dữ liệu điểm số học sinh
+# Tuần 2: Phân tích dữ liệu điểm số học sinh
 
 ## 1. Mô tả bài toán
 Chương trình cung cấp lớp `StudentAnalyzer` để xử lý danh sách điểm số (từ 0.0 đến 10.0) với hai chức năng chính:
@@ -44,5 +44,6 @@ Theo yêu cầu, chương trình thực hiện kiểm thử đầy đủ các nh
 ### 4.3. Trường hợp ngoại lệ
 * **Dữ liệu ngoài phạm vi:** Danh sách có điểm số < 0 hoặc > 10 để kiểm tra tính năng lọc điểm hợp lệ.
 
-### Kết quả thực hành kiểm thử tự động End-to-End với Cypress tuần 3
+
+# Tuần 3: kết quả thực hành kiểm thử tự động End-to-End với Cypress
 [![Xem Video kết quả]](./Resource/video/cypress-exercise.mp4)
