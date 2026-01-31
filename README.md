@@ -47,3 +47,44 @@ Theo yêu cầu, chương trình thực hiện kiểm thử đầy đủ các nh
 
 # Tuần 3: kết quả thực hành kiểm thử tự động End-to-End với Cypress
 [![Xem Video kết quả]](./Resource/video/cypress-exercise.mp4)
+
+
+# Báo cáo Kiểm thử Hiệu năng Website Wikipedia
+
+## 1. Mục tiêu kiểm thử
+Thực hiện kiểm thử hiệu năng trên trang https://en.wikipedia.org để đánh giá khả năng chịu tải và thời gian phản hồi của hệ thống.
+
+## 2. Công cụ sử dụng
+- **Công cụ:** Apache JMeter 5.x
+- **Môi trường:** Java JDK [version của bạn]
+
+## 3. Kịch bản kiểm thử (Test Scenarios)
+
+### Kịch bản 1: Truy cập cơ bản
+- **Số lượng user:** 10
+- **Số lần lặp:** 5
+- **Mục tiêu:** Kiểm tra phản hồi trang chủ trong điều kiện tải nhẹ.
+
+### Kịch bản 2: Tải nặng (Heavy Load)
+- **Số lượng user:** 50
+- **Ramp-up:** 30s
+- **Mục tiêu:** Mô phỏng 50 người dùng cùng truy cập trang chủ và trang nội dung.
+
+### Kịch bản 3: Stress Test theo thời gian
+- **Số lượng user:** 20
+- **Thời gian chạy:** 60 giây
+- **Mục tiêu:** Kiểm tra độ ổn định khi gửi request liên tục vào các trang con.
+
+## 4. Kết quả phân tích
+*(Điền số liệu bạn thu được vào đây)*
+- **Response Time trung bình:** ... ms
+- **Throughput:** ... /sec
+- **Tỷ lệ lỗi (Error Rate):** 0% (hoặc số khác)
+
+## 5. Kết luận
+- Hệ thống hoạt động ổn định với lượng user mô phỏng.
+- Thời gian phản hồi nằm trong mức chấp nhận được.
+
+## 6. Minh chứng
+Xem file script `.jmx` trong thư mục `/scripts`.
+![Kết quả JMeter](Resource/images/JMeter_Test.png)
