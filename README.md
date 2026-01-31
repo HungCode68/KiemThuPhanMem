@@ -49,7 +49,7 @@ Theo yêu cầu, chương trình thực hiện kiểm thử đầy đủ các nh
 [![Xem Video kết quả]](./Resource/video/cypress-exercise.mp4)
 
 
-# Báo cáo Kiểm thử Hiệu năng Website Wikipedia
+# Tuần 4: Báo cáo Kiểm thử hiệu năng JMeter Website Wikipedia
 
 ## 1. Mục tiêu kiểm thử
 Thực hiện kiểm thử hiệu năng trên trang https://en.wikipedia.org để đánh giá khả năng chịu tải và thời gian phản hồi của hệ thống.
@@ -85,6 +85,6 @@ Thực hiện kiểm thử hiệu năng trên trang https://en.wikipedia.org đ�
 - Hệ thống hoạt động ổn định với lượng user mô phỏng.
 - Thời gian phản hồi nằm trong mức chấp nhận được.
 
-## 6. Minh chứng
+## 6. Kết quả
 Xem file script `.jmx` trong thư mục `/scripts`.
 ![Kết quả JMeter](Resource/images/JMeter_Test.png)
