@@ -55,7 +55,7 @@ Theo yêu cầu, chương trình thực hiện kiểm thử đầy đủ các nh
 Thực hiện kiểm thử hiệu năng trên trang https://en.wikipedia.org để đánh giá khả năng chịu tải và thời gian phản hồi của hệ thống.
 
 ## 2. Công cụ sử dụng
-- **Công cụ:** Apache JMeter 5.x
+- **Công cụ:** Apache JMeter 5.6.3
 - **Môi trường:** Java JDK 21
 
 ## 3. Kịch bản kiểm thử (Test Scenarios)
