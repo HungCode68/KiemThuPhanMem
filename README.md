@@ -56,7 +56,7 @@ Thực hiện kiểm thử hiệu năng trên trang https://en.wikipedia.org đ�
 
 ## 2. Công cụ sử dụng
 - **Công cụ:** Apache JMeter 5.x
-- **Môi trường:** Java JDK [version của bạn]
+- **Môi trường:** Java JDK 21
 
 ## 3. Kịch bản kiểm thử (Test Scenarios)
 
