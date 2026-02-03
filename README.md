@@ -88,3 +88,28 @@ Thực hiện kiểm thử hiệu năng trên trang https://en.wikipedia.org đ�
 ## 6. Kết quả
 Xem file script `.jmx` trong thư mục `/scripts`.
 ![Kết quả JMeter](Resource/images/JMeter_Test.png)
+
+# Tuần 5: Dự án kiểm thử thủ công - Website Ecommerce
+
+## 📝 Giới thiệu
+Dự án thực hiện xây dựng bộ tài liệu kiểm thử QA từ đầu đến cuối cho hệ thống Website bán hàng Online.
+
+## 👥 Thành viên nhóm
+1. Đinh Hoàng Phi - QA Leader 
+2. Lê Nguyễn Thanh Phúc - QA Designer
+3. Nguyễn Trần Hùng - QA Designer
+4. Vũ Minh - Tester
+5. Trần Gia Phúc - Tester
+
+## 📂 Cấu trúc dự án
+- **/Test Plan**: Chiến lược và kế hoạch kiểm thử.
+- **/Test Cases**: Bộ 45 kịch bản kiểm thử (Auth, Cart, Checkout).
+- **/RTM**: Ma trận truy vết 16 yêu cầu hệ thống.
+- **/Bug Reports**: Danh sách 10 lỗi giả lập (Severity: 2 Critical, 4 Major, 4 Minor).
+- **/Test Report**: Tổng kết kết quả và quyết định Release.
+- **/Test Metrics**: Các chỉ số đo lường chất lượng dự án.
+
+## 📊 Tóm tắt kết quả
+- **Tổng số Test Cases**: 45
+- **Tỷ lệ thực thi**: 100%
+- **Trạng thái**: **NO-RELEASE** (Còn 02 lỗi Critical chưa fix).
