@@ -7,24 +7,27 @@ assignees: ''
 
 ---
 
-## [BUG] - Tên lỗi ngắn gọn
-**Environment:** Browser (Chrome/Safari), OS (Windows/macOS)
-**Severity:** Critical / High / Medium / Low
+**Summary (Tóm tắt lỗi):**
+[Viết ngắn gọn lỗi gì xảy ra ở đâu]
 
-### Description
-Mô tả ngắn gọn về lỗi.
+**Environment (Môi trường test):**
+- OS: [ví dụ: Windows 11, macOS]
+- Browser: [ví dụ: Chrome 115, Safari]
+- Version: [ví dụ: v1.0.0]
 
-### Steps to Reproduce
-1. Truy cập trang Login
-2. Nhập username "admin"
-3. Nhập password "123"
-4. Nhấn nút "Login"
+**Steps to Reproduce (Các bước tái hiện):**
+1. Vào trang [URL...]
+2. Nhập thông tin [ABC...]
+3. Click nút [XYZ...]
 
-### Expected Result
-Đăng nhập thành công vào Dashboard.
+**Expected Result (Kết quả mong đợi):**
+[Hệ thống nên phản hồi như thế nào]
 
-### Actual Result
-Hệ thống báo lỗi "404 Not Found" hoặc xoay vòng vô tận.
+**Actual Result (Kết quả thực tế):**
+[Hệ thống thực tế đang bị lỗi ra sao]
 
-### Screenshot/Video
-(Dán ảnh hoặc link video vào đây)
+**Severity (Mức độ nghiêm trọng):**
+[Critical / Major / Minor / Trivial]
+
+**Screenshot / Video (Hình ảnh/Video đính kèm):**
+[Kéo thả ảnh vào đây]
